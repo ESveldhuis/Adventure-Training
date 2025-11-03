@@ -13,7 +13,7 @@ box-sizing: border-box;
 }
 
 body{
-    background: linear-gradient(var(--bg), var(--bg-dark));
+    background: linear-gradient(var(--bg), var(--bg-dark) 50%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ body{
 
 div { 
     font-size: clamp(10px, 3vw, 30px);
-    background: linear-gradient(var(--bg-licht), var(--bg));
+    background: linear-gradient(var(--bg-licht), var(--bg) 40%);
     color: var(--text);
     border-style: solid;
     border-width: 2px;
