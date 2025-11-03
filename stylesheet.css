@@ -13,16 +13,16 @@ box-sizing: border-box;
 }
 
 body{
-    background-color: var(--bg);
+    background: linear-gradient(var(--bg), var(--bg-dark));
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
 }
 
 div { 
     font-size: clamp(10px, 3vw, 30px);
-    background-color: var(--bg-licht);
+    background: linear-gradient(var(--bg-licht), var(--bg));
     color: var(--text);
     border-style: solid;
     border-width: 2px;
