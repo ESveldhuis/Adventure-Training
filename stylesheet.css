@@ -54,7 +54,7 @@ box-sizing: border-box;
 }
 
 .hero p {
-    color: var(--text);
+  color: var(--text);
   font-size: clamp(0.5em, 3vw, 2em);
 }
 
@@ -62,7 +62,7 @@ box-sizing: border-box;
   padding: 10px;
 
   background-color: var(--secondary-color);
-    border-width: 2px;
+  border-width: 2px;
   border-color: var(--secondary-color);
   border-radius: 0.7em;
 
